@@ -28,7 +28,41 @@ body  {
     width: 200px;
 }
 
+/* music style */
 .music  {
     flex-grow: 1;
     background-color: #141922;
+}
+
+/* logo style */
+.logo   {
+    /* debug */
+    background-color: red;
+    height: 5%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* nav style */
+.nav    {
+    /* debug */
+    background-color: blue;
+    height: 10%;
+    margin-left: 10px;
+}
+
+/* playlist style */
+.playlist   {
+    /* debug */
+    background-color: green;
+    height: 75%;
+    margin-left: 10px;
+}
+
+/* profile style */
+.profile    {
+    /* debug */
+    background-color: plum;
+    height: 10%;
+    margin-left: 10px;
 }
