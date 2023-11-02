@@ -20,12 +20,102 @@ body  {
 .player {
     height: 80px;
     background-color: #282828;
+    z-index: 5;
 }
 
 /* style sidebar */
 .sidebar    {
     background-color: #000000;
     width: 200px;
+    color: #A3A3A3;
+    position: relative;
+}
+
+/* logo style */
+.logo   {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    /* debug */
+    background-color: red;
+    margin-top: 10px;
+}
+
+.logo img   {
+    width: 100%;
+}
+
+/* nav style */
+.nav    {
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 35px;
+    /* debug */
+    background-color: blue;
+}
+
+.nav i  {
+    margin-right: 5px;
+}
+
+/* playlist style */
+.playlist   {
+    margin-left: 10px;
+}
+
+#play   {
+    font-weight: bold;
+}
+
+.name_playlist  {
+    max-height: 300px;
+    line-height: 30px;
+    overflow-y: auto;
+    /* debug */
+    border: 3px solid yellow;
+    height: 80%;
+}
+
+/* create_playlist style */
+.create_playlist    {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* profile style */
+.profile    {
+    position: absolute;
+    bottom: 0;
+    background-color: purple;
+    margin: auto 0 auto 10px;
+    width: calc(100% - 10px);
+    padding-bottom: 10px;
+}
+
+.profile hr {
+    margin-right: 10px;
+    color: #A3A3A3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile_name   {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* user img style */
+.user_img   {
+    height: 30px;
+    width: 30px;
+    background-color: #282828;
+    border-radius: 50%;
+}
+
+.user_img span  {
+    font-weight: bold;
 }
 
 /* music style */
@@ -34,35 +124,3 @@ body  {
     background-color: #141922;
 }
 
-/* logo style */
-.logo   {
-    /* debug */
-    background-color: red;
-    height: 5%;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-/* nav style */
-.nav    {
-    /* debug */
-    background-color: blue;
-    height: 10%;
-    margin-left: 10px;
-}
-
-/* playlist style */
-.playlist   {
-    /* debug */
-    background-color: green;
-    height: 75%;
-    margin-left: 10px;
-}
-
-/* profile style */
-.profile    {
-    /* debug */
-    background-color: plum;
-    height: 10%;
-    margin-left: 10px;
-}
