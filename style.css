@@ -9,3 +9,26 @@
 body  {
     font-family: "Montserrat";
 }
+
+/* style main */
+.main   {
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+/* player style */
+.player {
+    height: 80px;
+    background-color: #282828;
+}
+
+/* style sidebar */
+.sidebar    {
+    background-color: #000000;
+    width: 200px;
+}
+
+.music  {
+    flex-grow: 1;
+    background-color: #141922;
+}
