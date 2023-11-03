@@ -69,12 +69,10 @@ body  {
 }
 
 .name_playlist  {
-    max-height: 300px;
     line-height: 30px;
     overflow-y: auto;
     /* debug */
     border: 3px solid yellow;
-    height: 80%;
 }
 
 /* create_playlist style */
@@ -124,3 +122,45 @@ body  {
     background-color: #141922;
 }
 
+/* mobile version  */
+@media all and (max-width: 552px)   {
+
+   .sidebar {
+        display: none;
+   }
+
+   .sidebar_mv  {
+    background-color: #000000;
+    width: 50px;
+    color: #A3A3A3;
+    position: relative;
+    /* debug */
+    border: 3px solid yellow;
+   }
+
+   .sidebar_mv_top  {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* debug */
+    background-color: green;
+   }
+
+   .sidebar_mv_top img  {
+    padding-bottom: 8px;
+   }
+
+   .sidebar_mv_bottom   {
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* debug */
+    width: 100%;
+    border: 3px solid red;
+   }
+
+}
