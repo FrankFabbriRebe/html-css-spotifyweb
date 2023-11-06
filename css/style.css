@@ -85,6 +85,7 @@ a   {
     flex-direction: column;
     gap: 5px;
     overflow-y: auto;
+    max-height: 20vh;
 }
 
 /* profile style */
@@ -340,6 +341,10 @@ a   {
     width: 100%;
 }
 
+.played_name   a {
+    color: white;
+}
+
 #artista_nome  {
     color: white;
     font-weight: bold;
@@ -580,3 +585,6 @@ input[type="range"] {
     border-radius: 50%;
  }
  
+a:hover .fa-heart  {
+    color: white;
+ }
