@@ -391,7 +391,7 @@ body  {
     width: 100%;
 }
 
-/*+++++++++++++++++++++++++++++++++++
+/*************************************
                 MD VERSION
 *************************************/
 @media all and (max-width: 878px)   {
@@ -399,6 +399,18 @@ body  {
     /* recently palyed section */
     .recently_played_card   {
     width: calc(25% - 10px);
+    }
+
+}
+
+/************************************
+                S VERSION
+*************************************/
+@media all and (max-width: 639px)   {
+
+    /* recently palyed section */
+    .recently_played_card   {
+    width: calc(50% - 10px);
     }
 
 }
