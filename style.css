@@ -243,7 +243,7 @@ body  {
     display: flex;
     gap: 10px;
     margin-top: 10px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* debug */
     border: 2px solid rgb(234, 6, 165);
     width: 100%;
@@ -251,7 +251,7 @@ body  {
 }
 
 .recently_played_card  {
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 10px);
     text-align: center;
     /* display: flex;
     flex-direction: column;
@@ -394,6 +394,14 @@ body  {
 /*+++++++++++++++++++++++++++++++++++
                 MD VERSION
 *************************************/
+@media all and (max-width: 878px)   {
+
+    /* recently palyed section */
+    .recently_played_card   {
+    width: calc(25% - 10px);
+    }
+
+}
 
 /*************************************
             MOBILE VERSION 
