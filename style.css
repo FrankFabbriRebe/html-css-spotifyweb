@@ -219,24 +219,12 @@ body  {
 /* recently played section style */
 .recently_played    {
     padding: 10px;
-    /* debug */
-    background-color: #1255d2;
-    width: 100%;
-    /* height: 300px; */
 }
 
-.recently_played_container  {
-    width: 100%;
-    height: 100%;
-    /* debug */
-    border: 2px solid yellow;
-}
 
 .recently_played_title  {
     color: white;
     font-weight: bold;
-    /* debug */
-    background-color: red;
 }
 
 .recently_played_music  {
@@ -244,20 +232,11 @@ body  {
     gap: 10px;
     margin-top: 10px;
     flex-wrap: wrap;
-    /* debug */
-    border: 2px solid rgb(234, 6, 165);
-    width: 100%;
-    /* height: 80%; */
 }
 
 .recently_played_card  {
     width: calc(100% / 6 - 10px);
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* debug */
-    border: 2px solid white;
 }
 
 .recently_played_card img   {
